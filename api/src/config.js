@@ -6,5 +6,9 @@ module.exports = {
     },
     database: {
         uri: process.env.MONGO_URI ?? ''
+    },
+    jwt: {
+        secretKey: process.env.AUTHENTICATION_SECRET_KEY ?? 'secret',
+        expiresIn: '5d'
     }
 }
