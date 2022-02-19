@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Button, IconButton, Menu } from '@mui/material'
 import { KeyboardArrowDown, MoreVert } from '@mui/icons-material'
 
-function MenuComponent({ optionButton = false, moreVert = false, children }) {
+const MenuComponent = ({ optionButton = false, moreVert = false, children }) => {
   const [anchorEl, setAnchorEl] = useState(null)
   const open = Boolean(anchorEl)
 

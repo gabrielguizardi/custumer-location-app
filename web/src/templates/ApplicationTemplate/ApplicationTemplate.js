@@ -4,7 +4,7 @@ import { AppBar, SideBar } from './components'
 
 import useStyles from './styles'
 
-function PublicTemplate({ children }) {
+const PublicTemplate = ({ children }) => {
   const classes = useStyles()
 
   return (

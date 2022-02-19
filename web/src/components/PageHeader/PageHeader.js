@@ -2,7 +2,7 @@ import { Box, Typography } from '@mui/material'
 
 import useStyles from './styles'
 
-function PageHeader({ title, children }) {
+const PageHeader = ({ title, children }) => {
   const classes = useStyles()
 
   return (

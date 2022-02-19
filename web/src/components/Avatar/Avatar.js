@@ -3,7 +3,7 @@ import { PersonOutline } from '@mui/icons-material'
 
 import useStyles from './styles'
 
-function AvatarComponent(props) {
+const AvatarComponent = (props) => {
   const classes = useStyles()
 
   return(

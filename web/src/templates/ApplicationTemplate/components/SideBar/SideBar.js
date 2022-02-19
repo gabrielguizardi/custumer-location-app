@@ -2,7 +2,7 @@ import { IconButton, Box } from '@mui/material'
 
 import { PersonOutline, LocationSearching } from '@mui/icons-material'
 import useStyles from './styles'
-function Sidebar() {
+const Sidebar = () => {
   const classes = useStyles()
 
   return (

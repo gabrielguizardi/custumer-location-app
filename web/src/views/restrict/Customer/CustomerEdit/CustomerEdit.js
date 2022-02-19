@@ -6,7 +6,7 @@ import { CustomerForm } from '../components'
 
 import useStyles from './styles'
 
-function CustomerEdit() {
+const CustomerEdit = () => {
   const classes = useStyles()
   const customer = {
     address: {
@@ -25,6 +25,8 @@ function CustomerEdit() {
     updated_at: "2022-02-16T23:30:58.519Z",
     __v: 0
   }
+
+
 
   return (
     <ApplicationTemplate>

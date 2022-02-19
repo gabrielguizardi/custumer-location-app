@@ -6,7 +6,7 @@ import { CustomerForm } from '../components'
 
 import useStyles from './styles'
 
-function CustomerCreate() {
+const CustomerCreate = () => {
   const classes = useStyles()
 
   return (

@@ -6,7 +6,7 @@ import { PublicTemplate } from '../../../templates'
 import useStyles from './styles'
 import lawnGuruLogo from '../../../assets/images/lawn-guru-logo.png'
 
-function Register() {
+const Register = () => {
   const classes = useStyles()
 
   return (

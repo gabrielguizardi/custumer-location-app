@@ -7,7 +7,7 @@ import { TextField } from '../../../../../components'
 
 import useStyles from './styles'
 
-function Form({ customer = {} }) {
+const Form = ({ customer = {} }) => {
   const navigate = useNavigate()
   const classes = useStyles()
 

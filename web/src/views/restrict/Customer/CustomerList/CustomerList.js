@@ -7,7 +7,7 @@ import { PageHeader, Avatar, Menu } from '../../../../components'
 
 import useStyles from './styles'
 
-function CustomerList() {
+const CustomerList = () => {
   const navigate = useNavigate()
   const classes = useStyles()
 

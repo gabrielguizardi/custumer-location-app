@@ -2,7 +2,7 @@ import { Box } from '@mui/material'
 
 import useStyles from './styles'
 
-function PublicTemplate({ children }) {
+const PublicTemplate = ({ children }) => {
   const classes = useStyles()
 
   return (

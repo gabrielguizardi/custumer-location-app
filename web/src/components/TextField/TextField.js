@@ -1,12 +1,12 @@
 import { Controller } from 'react-hook-form'
 import { TextField } from '@mui/material'
 
-function TextFieldComponent({
+const TextFieldComponent = ({
   control,
   name,
   mode = 'onBlur',
   ...rest
-}) {
+}) => {
   return (
     <Controller
       render={({
