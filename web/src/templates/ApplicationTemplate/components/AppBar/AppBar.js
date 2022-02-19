@@ -1,8 +1,8 @@
-import { AppBar, Container, Toolbar, Box, Avatar } from '@mui/material'
-import { PersonOutline } from '@mui/icons-material'
+import { AppBar, Container, Toolbar, Box } from '@mui/material'
+
+import { Avatar } from '../../../../components'
 
 import useStyles from './styles'
-
 import lawnGuruLogo from '../../../../assets/images/lawn-guru-logo.png'
 
 function AppBarComponent() {
@@ -15,9 +15,7 @@ function AppBarComponent() {
           <img src={lawnGuruLogo} alt="LawnGuru Logo" className={classes.logo}/>
 
           <Box>
-            <Avatar className={classes.avatar}>
-              <PersonOutline color="primary" />
-            </Avatar>
+            <Avatar />
           </Box>
         </Toolbar>
       </Container>

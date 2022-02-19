@@ -10,6 +10,7 @@ export default makeStyles((theme) => ({
   },
   boxButtons: {
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    flexDirection: 'column'
   }
 }))

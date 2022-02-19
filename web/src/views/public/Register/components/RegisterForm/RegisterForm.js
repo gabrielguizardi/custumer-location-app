@@ -87,7 +87,7 @@ function Form() {
             color="primary"
             type="submit"
             variant="contained"
-            className={classes.signUpButton}
+            className={classes.submitButton}
             startIcon={<LoginIcon />}
           >
             Sign up

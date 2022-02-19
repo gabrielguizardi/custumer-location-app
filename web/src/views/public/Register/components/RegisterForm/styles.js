@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles'
 
 export default makeStyles(() => ({
-  signUpButton: {
+  submitButton: {
     marginRight: '16px !important'
   }
 }))

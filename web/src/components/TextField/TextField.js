@@ -1,7 +1,7 @@
 import { Controller } from 'react-hook-form'
-import { TextField as MuiTextField } from '@mui/material'
+import { TextField } from '@mui/material'
 
-function TextField({
+function TextFieldComponent({
   control,
   name,
   mode = 'onBlur',
@@ -12,7 +12,7 @@ function TextField({
       render={({
         field: { onChange, onBlur, value, ref },
       }) =>
-        <MuiTextField
+        <TextField
           value={value}
           onChange={onChange}
           onBlur={onBlur}
@@ -27,4 +27,4 @@ function TextField({
   )
 }
 
-export default TextField
+export default TextFieldComponent

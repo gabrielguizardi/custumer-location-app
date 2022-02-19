@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles'
 import backgroundPatternImage from '../../assets/images/background-pattern.png'
 
-export default makeStyles((theme) => ({
+export default makeStyles(() => ({
   application: {
     display: 'flex',
     flexDirection: 'row'
@@ -14,7 +14,7 @@ export default makeStyles((theme) => ({
     flexDirection: 'column',
     backgroundImage: `url(${backgroundPatternImage})`,
     backgroundColor: '#EFFCF7',
-    padding: 8
+    padding: '40px 16px 16px 16px'
   }
 }))
 

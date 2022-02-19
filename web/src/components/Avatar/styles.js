@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles'
 
 export default makeStyles(() => ({
-  submitButton: {
-    marginRight: '16px !important'
+  avatar: {
+    backgroundColor: `#E5FED0 !important`
   }
 }))
